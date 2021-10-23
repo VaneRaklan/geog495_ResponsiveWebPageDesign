@@ -9,12 +9,14 @@
 </head>
 
 <body>
+    <div>
+        <img src="img/header.jpg" class="header_img">
+    </div>
 
     <div class="topnav" id="myTopnav">
         <a href="index.html">Abstract</a>
         <a class="active" href="section1.html">Section 1</a>
         <a href="section2.html">Section 2</a>
-        <a href="section3.html">Section 3</a>
         <a href="see_also.html">See Also</a>
         <a href="references.html">References</a>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -32,6 +34,37 @@
         but it will drain your health at it's highest rate.
     </div>
 
+    <button class="accordion">Health</button>
+    <div class="panel">
+        <img src="img/health.jpg" alt="" style="width:11%;height:11%;">
+        <p>Your character has a starting health and if you get hit or injured then you'll lose health points. 
+            What's also true is that if any of the other stats go "into the red" (which just means very low) then your health goes down incrementally.</p>
+        <br>
+        <p>The way to get your health back to normal is to have all of the other stats satiated at the same 
+            time and that will incrementally bring your health back over time.</p>
+    </div>
+
+    <button class="accordion">Blood</button>
+    <div class="panel">
+        <img src="img/blood.jpg" alt="" style="width:11%;height:11%;">
+        <p>This stat is how much blood your character still has and really has to do with being cut because of blood loss.</p>
+        <p>If you get a cut from either zombies or another player then you have to be quick to use rags or bandages in order to stop the bleeding.</p>
+    </div>
+
+    <button class="accordion">Energy</button>
+    <div class="panel">
+        <img src="img/energy.png" alt="">
+        <p>This is your characters hunger. You need to make sure your character eats regularly or else the energy level goes down.</p>
+        <p>In the game there's a lot of ways to acquire food, all varying in their potency. You can simply scavenge houses and hope to find a can of tuna or a fruit (among other things) which can help satiate for a short time. Occasionally you can stumble on a garden of sorts and harvest food that way. The most long term solution is to hunt animals because the quantity and quality of the return is immense.</p>
+        <p>Also, if you have the correct tools to make a fire (lighter, matches, or making a hand drill), you can cook pretty much any food in order to make it more potent. In terms of meat, you are required to cook it before eating or else you will get a disease status.</p>
+    </div>
+
+    <button class="accordion">Water</button>
+    <div class="panel">
+        <img src="img/water.png" alt="" style="width:11%;height:11%;">
+        <p>This is your characters hydration. Similar to real life, you need to stay hydrated.</p>
+        <p>Around the map are wells where you can get water, which is possibly the easiest way of getting water, but with their sparsity you put yourself in danger if you aim to keep traveling. Otherwise, you can find purification tablets to purify bottles, jugs, buckets, etc. so you can have portable drinking water.</p>
+    </div>
 </body>
 
 <script src="js/main.js"></script>
