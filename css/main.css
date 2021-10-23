@@ -126,3 +126,11 @@ body {
     text-align: left;
   }
 }
+
+#iframe {
+  display: flex;
+}
+
+iframe {
+  flex: 1;  
+}
